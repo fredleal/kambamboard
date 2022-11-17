@@ -42,7 +42,7 @@ export const Container = styled.div `
     svg{
             position: absolute;
             bottom: 10px;
-            right: 0;
+            right: 8px;
     }
 `;
 
@@ -53,5 +53,5 @@ export const Label = styled.span `
     height: 16px;
     border-radius: 2px;
     display: inline-block;
-    background: #EEB111 ;
+    background: ${props => props.color};
 `;
